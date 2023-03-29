@@ -300,7 +300,10 @@ ion-icon {
   #HEADER
 \*-----------------------------------*/
 
-
+.rounded{
+  border-top: 8px solid #444444;
+  border-radius: 5px;
+}
 
 .header .btn>span {
   display: none;
@@ -332,6 +335,7 @@ ion-icon {
   align-items: center;
   gap: 30px;
 }
+
 
 .menu-open-btn {
   margin-inline-start: auto;
