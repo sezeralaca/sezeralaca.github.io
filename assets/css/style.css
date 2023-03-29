@@ -451,7 +451,7 @@ ion-icon {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-right: 0px;
+  margin-right: -10px;
   margin-top: 150px;
 }
 
