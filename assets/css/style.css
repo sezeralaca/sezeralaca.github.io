@@ -100,9 +100,7 @@ svg,
 span,
 input,
 button,
-ion-icon {
-  display: block;
-}
+
 
 img {
   height: auto;
@@ -451,7 +449,6 @@ ion-icon {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-right: -10px;
   margin-top: 150px;
 }
 
@@ -463,6 +460,7 @@ ion-icon {
 \*-----------------------------------*/
 
 .hero {
+  
   height: 1000px;
   position: relative;
   background-color: #F89494;
@@ -535,7 +533,6 @@ ion-icon {
 }
 
 .sliderarticle {
-  overflow: hidden;
   padding-top: 100px;
   display: flow-root;
   width: 200%;
@@ -547,7 +544,6 @@ ion-icon {
 }
 
 .sliderul {
-  overflow: hidden;
   display: flex;
 }
 
@@ -557,9 +553,8 @@ ion-icon {
 
 .sliderimg {
   display: block;
-
-  border: 10px solid white;
-  width: 240px;
+  border: 5px solid white;
+  width: 350px;
 }
 
 .sliderarticle.paused {
@@ -597,10 +592,16 @@ ion-icon {
   max-width: 100%;
 }
 
+
+.headerline{
+  width: 100%;
+  height: 10px;
+}
+
 .footerlogo {
-  margin-top: 100px;
+  margin-top: 75px;
   margin-left: 150px;
-  width: 30%;
+  width: 10%;
 }
 
 .footer-container {
@@ -618,16 +619,10 @@ ion-icon {
   color: #F89494;
 }
 
-.footertwitter{
-  color: #B4FFC8;
-  position: relative;
-  margin-top: 20px;
-  margin-left: 50%;
-}
+
 
 .footercentered {
-
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   width: 500px;
   top: 50%;
@@ -691,6 +686,7 @@ ion-icon {
   }
 
   .hero-title {
+    font-family: 'Lilita One', cursive;
     max-width: 900px;
   }
 
