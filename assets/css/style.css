@@ -1,22 +1,13 @@
 :root {
-  --rich-black-fogra-39: hsl(252, 24%, 4%);
-  --spanish-gray: hsl(0, 0%, 56%);
-  --eerie-black-1: hsl(252, 11%, 9%);
-  --eerie-black-2: hsl(0, 0%, 13%);
-  --raisin-black: hsl(249, 9%, 15%);
-  --han-purple: hsl(250, 72%, 51%);
-  --gainsboro: hsl(0, 0%, 88%);
-  --cultured: hsl(0, 0%, 98%);
-  --white_20: hsla(217, 15%, 70%, 0.3);
-  --xiketic: hsl(250, 15%, 8%);
-  --indigo: hsl(277, 94%, 28%);
+ 
+  
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --green1: #B4FFC8;
   --purp1: #C7C4FF;
 
 
-  --gradient-1: linear-gradient(150deg, var(--indigo) 0%, var(--han-purple) 78%);
+  --gradient1: linear-gradient(150deg, var(--indigo) 0%, var(--han-purple) 78%);
   --gradient-2: linear-gradient(150deg, var(--green1) 0%, var(--purp1) 78%);
 
   /**
@@ -102,36 +93,18 @@ input,
 button,
 
 
-img {
-  height: auto;
-}
 
-input,
+
 button {
   background: none;
   border: none;
   font: inherit;
 }
 
-input {
-  width: 100%;
-}
+
 
 button {
   cursor: pointer;
-}
-
-ion-icon {
-  pointer-events: none;
-  color: var(--white);
-}
-
-::selection {
-  background-color: var(--white_20);
-}
-
-:focus-visible {
-  outline-offset: 4px;
 }
 
 html {
@@ -228,7 +201,6 @@ ion-icon {
   background-image: var(--gradient-1);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #B4FFC8;
   text-transform: uppercase;
   font-weight: var(--fw-600);
   margin-block-end: 15px;
