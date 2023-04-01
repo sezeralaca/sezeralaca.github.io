@@ -564,6 +564,7 @@ ion-icon {
 \*-----------------------------------*/
 
 .footer {
+  position: relative;
   background-color: #C3C1FA;
   max-width: 100%;
 }
@@ -575,6 +576,7 @@ ion-icon {
 }
 
 .footerlogo {
+  position: relative;
   margin-top: 75px;
   margin-left: 150px;
   width: 10%;
@@ -599,9 +601,9 @@ ion-icon {
 
 .footercentered {
   font-size: 20px;
-  position: absolute;
+  position: relative;
   width: 500px;
-  top: 50%;
+  margin-top: -160px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
