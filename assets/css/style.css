@@ -499,6 +499,7 @@ ion-icon {
   font-family: var(--ff-jost);
   font-size: 90px;
   color: #FFE881;
+  text-shadow: 4px 4px 1px black;
 }
 
 .slidertitle {
@@ -529,8 +530,10 @@ ion-icon {
 
 .sliderimg {
   display: block;
-  border: 5px solid white;
+  border: 3px solid white;
   width: 350px;
+  box-shadow: 10px 10px 0px 0px rgba(68,68,68,1);
+
 }
 
 .sliderarticle.paused {
@@ -595,8 +598,9 @@ ion-icon {
   font-size: 50px;
   font-weight: bold;
   color: #F89494;
-}
+  text-shadow: 4px 4px 1px black;
 
+}
 
 
 .footercentered {
@@ -611,9 +615,6 @@ ion-icon {
 .footer-copyright {
   height: 200px;
 }
-
-
-
 
 
 /**
@@ -636,8 +637,6 @@ ion-icon {
 
   }
 
-
-
   /**
    * HEADER
    */
@@ -649,8 +648,6 @@ ion-icon {
   .header .btn {
     --padding: 12px 30px;
   }
-
-
 
   /**
    * HERO
