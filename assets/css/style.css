@@ -158,13 +158,6 @@ body {
   gap: 5px;
 }
 
-.btn ion-icon {
-  font-size: 2.5rem;
-}
-
-ion-icon {
-  color: black;
-}
 
 .social {
   color: var(--white);
@@ -246,14 +239,7 @@ ion-icon {
   margin-block-end: 50px;
 }
 
-.btn-link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: var(--white);
-  font-weight: var(--fw-500);
-  transition: var(--transition-2);
-}
+
 
 .btn-link:is(:hover, :focus) {
   color: var(--gr);
@@ -263,8 +249,40 @@ ion-icon {
   color: inherit;
 }
 
+.btn-wallet {
+  pointer-events: visible;
+  text-align: center;
+  width: 200px;
+  --padding: 12px 30px;
+  color: var(--white);
+  font-weight: var(--fw-700);
+  border: 2px solid var(--white);
+  padding: var(--padding, 5px 10px);
+  border-radius: 50px;
+  display: block;
+  align-items: center;
+  gap: 5px;
+}
+.btn-wallet:is(:hover, :focus) {
+  text-align: center;
+  background-color: #B4FFC8;
+  color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% 120%;
+  border-color: transparent;
+}
 
+.btn-wallet:hover span {
+  text-align: center;
+  display: none
+}
 
+.btn-wallet:hover:before{
+    text-align: center;
+    content: "Coming Soon"
+
+}
 
 
 
@@ -473,6 +491,8 @@ ion-icon {
   --padding: 12px 30px;
 }
 
+
+
 .hero-bg-bottom {
   position: absolute;
   bottom: 0;
@@ -523,6 +543,7 @@ ion-icon {
 .sliderul {
   display: flex;
 }
+
 
 .slidersection {
   width: 200%;
